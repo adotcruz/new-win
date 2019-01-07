@@ -1,22 +1,21 @@
-<ngb-tabset justify="center mx-auto text-center" orientation="horizontal" type="pills">
+<!-- <ngb-tabset justify="center" orientation="horizontal" type="pills">
   <ngb-tab class="mx-auto text-center" title="Home">
-    <ng-template ngbTabContent>
-      <app-home></app-home>
-    </ng-template>
+    <ng-template ngbTabContent> <app-home></app-home> </ng-template>
   </ngb-tab>
   <ngb-tab class="mx-auto text-center" title="About Us">
-    <ng-template ngbTabContent> 
-      <app-about></app-about>
-    </ng-template>
+    <ng-template ngbTabContent> <app-about></app-about> </ng-template>
   </ngb-tab>
   <ngb-tab class="mx-auto text-center" title="Menu">
-    <ng-template ngbTabContent>
-      <app-menu></app-menu>
-    </ng-template> 
+    <ng-template ngbTabContent> <app-menu></app-menu> </ng-template>
   </ngb-tab>
   <ngb-tab class="mx-auto text-center" title="Contact Us">
-    <ng-template ngbTabContent>
-      <app-contact-us></app-contact-us>
-    </ng-template>
+    <ng-template ngbTabContent> <app-contact-us></app-contact-us> </ng-template>
   </ngb-tab>
-</ngb-tabset>
+</ngb-tabset> -->
+
+<nav class="nav nav-pills nav-justified">
+  <a class="nav-item nav-link" href="#">Home</a>
+  <a class="nav-item nav-link" href="#">About Us</a>
+  <a class="nav-item nav-link" href="#">Menu</a>
+  <a class="nav-item nav-link" (click)="scrollTo('contact-us')" href="#">Contact Us</a>
+</nav>
