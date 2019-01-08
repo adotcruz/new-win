@@ -8,6 +8,7 @@ import { AboutComponent } from './containers/about/about.component';
 import { MenuComponent } from './containers/menu/menu.component';
 import { ContactUsComponent } from './containers/contact-us/contact-us.component';
 import { HeaderComponent } from './components/header/header.component';
+import { LandingPageComponent } from './containers/landing-page/landing-page.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { HeaderComponent } from './components/header/header.component';
     AboutComponent,
     MenuComponent,
     ContactUsComponent,
-    HeaderComponent
+    HeaderComponent,
+    LandingPageComponent
   ],
   imports: [
     BrowserModule,
